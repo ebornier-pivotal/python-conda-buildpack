@@ -75,6 +75,9 @@ else
         $CONDA_BIN/pip install --quiet -r "$BUILD_DIR/requirements.txt"
     fi
 fi
+
+conda install -f -c r r-essentials
+
 $CONDA_BIN/conda clean -pt
 
 #
