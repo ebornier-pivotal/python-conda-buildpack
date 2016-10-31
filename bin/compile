@@ -79,6 +79,8 @@ fi
  $CONDA_BIN/conda install -f -c r r-essentials
  $CONDA_BIN/pip install --quiet toree
  $CONDA_BIN/jupyter toree install --user
+ sudo apt-get -y install r-base
+ R
 
 $CONDA_BIN/conda clean -pt
 
